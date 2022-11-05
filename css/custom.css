@@ -1,0 +1,5 @@
+#orderTable > thead > tr > th {
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: none;
+  }

@@ -23,4 +23,21 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     }
 
+    $(function() {
+        $("#datepickerStt").datepicker();
+    });
+    $(function() {
+        $("#datepickerEnd").datepicker();
+    });
+
+    $("#addOrderButton").click(function() {
+        console.log('test1');
+        // $('#myModal').modal('toggle');
+        $('#orderModal').modal('show');
+        // $('#myModal').modal('hide');
+        console.log('test2');
+    });
 });
+
+
+
