@@ -5,9 +5,10 @@ window.addEventListener('DOMContentLoaded', event => {
     const orderTable = document.getElementById('orderTable');
     if (orderTable) {
         let dataTable = new simpleDatatables.DataTable(orderTable, {
-            perPage: 15,
+            perPage: 10,
             perPageSelect: false,
             searchable: false,
+            soartable: false,
             // data: myData
         });
     }

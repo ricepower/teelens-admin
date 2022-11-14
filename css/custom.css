@@ -2,4 +2,8 @@
     vertical-align: middle;
     text-align: center;
     border-bottom: none;
-  }
+}
+
+.bg-custom-grey {
+  background-color: #D9D9D9;
+}

@@ -32,9 +32,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     $("#addOrderButton").click(function() {
         console.log('test1');
-        // $('#myModal').modal('toggle');
         $('#orderModal').modal('show');
-        // $('#myModal').modal('hide');
         console.log('test2');
     });
 });
